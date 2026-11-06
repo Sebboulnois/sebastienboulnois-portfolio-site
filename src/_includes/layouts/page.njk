@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+---
+{#- Standalone content page (About, Publications): same header and body rhythm as a case study, without the summary box. -#}
+<article class="page">
+  <header class="page__header">
+    <div class="container page__header-inner">
+      <p class="eyebrow">{{ eyebrow }}</p>
+      <h1 class="page__title">{{ heading }}</h1>
+      <p class="page__lead">{{ lead }}</p>
+    </div>
+  </header>
+  <div class="container page__body">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

@@ -26,8 +26,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-2) var(--space-5);
-  padding-block: var(--space-3);
+  gap: 0 var(--space-5);
+  padding-block: var(--space-2);
 }
 
 .site-header__name {
@@ -132,22 +132,22 @@
   color: var(--color-inverse-muted);
 }
 
-/* Case study pages */
-.case__header {
+/* Content pages: case studies, About and Publications */
+.page__header {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
 }
 
-.case__header-inner {
+.page__header-inner {
   display: grid;
   gap: var(--space-5);
   padding-block: var(--space-7);
 }
 
-.case__body {
+.page__body {
   padding-block: var(--space-6) var(--space-7);
 }
 
-.case__nav {
+.page__nav {
   padding-block: 0 var(--space-8);
 }
