@@ -31,3 +31,8 @@
 .prose strong {
   font-weight: 600;
 }
+
+/* Long URLs (e.g. DOI links) wrap instead of overflowing narrow screens. */
+.prose a {
+  overflow-wrap: anywhere;
+}
