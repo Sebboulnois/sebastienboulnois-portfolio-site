@@ -19,7 +19,12 @@ summary:
     detail: Paven onboarded 14,176 users; the pregnancy platform reached 35,000+ users
 ---
 
-## Paven: financial wellbeing for Meta employees
+This page covers two projects:
+
+1. [Paven: financial wellbeing for Meta employees](#paven)
+2. [A digital platform for people facing an unexpected pregnancy](#pregnancy-platform)
+
+<h2 id="paven">Paven: financial wellbeing for Meta employees</h2>
 
 ### The problem
 
@@ -46,7 +51,9 @@ Working with a design researcher, I ran 8 heuristic evaluations and 20+ rounds o
 
 Since launch, Paven has onboarded 14,176 users. 83% of them set financial goals in the app, and it initiated 7,554 connections to benefits. 44% of tax advising appointments and 58% of financial coaching engagements happened through Paven. Testing features before they were built also saved redesign work, which the team estimated at 22% of the cost of each sprint.
 
-## A digital platform for people facing an unexpected pregnancy
+***
+
+<h2 id="pregnancy-platform">A digital platform for people facing an unexpected pregnancy</h2>
 
 ### The problem
 

@@ -36,3 +36,15 @@
 .prose a {
   overflow-wrap: anywhere;
 }
+
+/* Thematic break: a strong divider between separate projects on one page. */
+.prose hr {
+  width: 100%;
+  margin: var(--space-7) 0 0;
+  border: 0;
+  border-top: 4px solid var(--color-accent);
+}
+
+.prose hr + h2 {
+  margin-top: var(--space-5);
+}
