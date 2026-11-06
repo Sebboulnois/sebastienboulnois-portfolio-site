@@ -19,7 +19,7 @@ src/
   assets/
     css/            tokens.css, base.css, layout.css, components.css, prose.css
     js/             one file per behaviour, kebab-case (none needed yet)
-    images/         kebab-case, each in .webp and .jpg at two widths
+    images/         kebab-case; photos in .webp and .jpg at two widths, diagrams in .svg
     docs/           downloadable PDFs
   work/             one Markdown file per case study
   index.njk         homepage
@@ -41,6 +41,7 @@ wrangler.jsonc      Cloudflare hosting configuration
 - CSS in the `<head>`. Scripts deferred (`<script src defer>`).
 - WCAG 2.2 AA: meaningful `alt` text, one `<h1>` per page and no skipped heading levels, visible focus, 4.5:1 text contrast, 44px tap targets, reduced-motion support. ARIA only where native HTML cannot express the meaning.
 - Images: `width` and `height` set, responsive `srcset`, WebP with JPG fallback, `loading="lazy"` below the fold.
+- Diagrams: standalone SVG files loaded with `<img>`, so their `<style>` block is the file's own stylesheet, not inline styling in the page. Colours match `tokens.css`; the full description goes in the alt text.
 - Every page has a unique `<title>` and meta description.
 
 ## 5. How changes are delivered

@@ -31,6 +31,14 @@ I started by taking meteorology classes, then ran a grounded theory study: in-de
 
 {% figure "pilot-interview-cockpit-lab", "Sébastien interviewing an expert airline pilot in the cockpit design lab, with a simulator screen in the background.", "Knowledge elicitation with an expert pilot in the cockpit design lab.", 800, 442 %}
 
+The interviews showed how much work the onboard radar leaves to the pilot. Radar shows one slice of weather at a time, so pilots keep adjusting it and assembling slices in their head until they have a 3D picture. That loop takes experience and skill, and it fails in three ways:
+
+1. **The radar can miss weather.** With severe convective weather, the beam can be blocked, leaving a "shadow" behind the strongest cells.
+2. **One slice is not a 3D picture.** Pilots see top-down 2D information for one flight level at a time, which makes 3D awareness hard to build in a time-critical situation.
+3. **Deviating takes time.** Getting clearance from air traffic control adds delay to a decision that is already late.
+
+{% diagram "weather-radar-decision-loop", "Flowchart. A pilot sees weather outside the cockpit, or wants to keep weather awareness, and uses the onboard radar. Inside a loop marked 'takes experience and skill', the pilot reads one slice of weather at the current tilt, range and gain, then asks whether it is enough to build a 3D picture of the weather. If not, the pilot adjusts tilt, range or gain and reads again. If so, the pilot decides whether avoiding the weather is necessary, and if it is, requests a deviation from air traffic control.", "How pilots build a weather picture with onboard radar, from the interview findings.", 420, 600 %}
+
 ## Designing with pilots
 
 Instead of designing in isolation, I brought early concepts to pilots. A focus group with two experienced airline pilots and our interdisciplinary team steered the visual design toward simple, information-rich 3D storm cells: colour-coded, semi-transparent, and sliceable by altitude.
@@ -40,6 +48,10 @@ Instead of designing in isolation, I brought early concepts to pilots. A focus g
 Across three years I built three generations of the Onboard Weather Situation Awareness System (OWSAS) on an iPad. OWSAS-3.3, the last version, combined a bird's-eye 2D map with an exocentric 3D view of storm cells, and a timeline showing how each cell's intensity and movement would evolve.
 
 {% figure "owsas-3-3-interface", "The OWSAS-3.3 interface on an iPad: a 3D view of storm cells with altitude labels above a 2D map showing the flight path and precipitation intensity.", "OWSAS-3.3: an exocentric 3D view above a 2D map, with a weather-evolution timeline.", 800, 592 %}
+
+I also proposed an architecture for OWSAS-3 to address these problems: ground-based NEXRAD weather that the radar shadow cannot hide, a 3D globe to show storm cells in volume, and live aircraft and flight-plan data from the B737 simulator so pilots could see their position against the weather and plan ahead.
+
+{% diagram "owsas-system-architecture", "System diagram. Weather data from the NEXRAD network feeds OWSAS directly. Map data from NASA and Mapbox feeds a WhirlyGlobe 3D globe, which feeds OWSAS. Flight plan data from ProSim737 feeds the flight management system, which feeds OWSAS. OWSAS and the flight management system sit inside the Boeing 737-800 cockpit simulator. Aircraft data, meaning position, attitude and speed, also feeds OWSAS.", "The proposed OWSAS-3 architecture, integrating weather, map, flight-plan and aircraft data.", 420, 440 %}
 
 ## Evaluation 1: the standalone tablet (OWSAS-3.2)
 

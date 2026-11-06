@@ -281,6 +281,15 @@
   border-radius: var(--radius-md);
 }
 
+/* Diagrams scale with the column but stop at a size where their text stays near body size. */
+.case-figure__image--diagram {
+  width: 100%;
+  max-width: 28rem;
+  max-height: none;
+  padding: var(--space-3);
+  background-color: var(--color-surface);
+}
+
 .case-figure__caption {
   margin-top: var(--space-2);
   font-size: var(--text-sm);
