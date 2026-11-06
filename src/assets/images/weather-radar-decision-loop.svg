@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 600" width="420" height="600" role="img" aria-labelledby="t">
+  <title id="t">How pilots build a weather picture with onboard radar</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0e1a2b"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; fill: #0e1a2b; text-anchor: middle; }
+    .note { font-size: 13px; fill: #3b4757; }
+    .label { font-size: 13px; font-weight: 600; }
+    .accent { font-size: 13px; fill: #92400e; font-weight: 600; text-anchor: end; }
+    .box { fill: #ffffff; stroke: #0e1a2b; stroke-width: 1.5; }
+    .box--note { fill: #f6f7f9; stroke: #c3cad4; }
+    .box--delay { stroke-dasharray: 5 4; }
+    .loop { fill: #fdf6ee; stroke: #92400e; stroke-width: 1.5; stroke-dasharray: 8 5; }
+    .line { fill: none; stroke: #0e1a2b; stroke-width: 1.5; }
+    .line--dashed { stroke-dasharray: 4 4; }
+  </style>
+
+  <rect class="box box--note" x="10" y="10" width="190" height="52" rx="6"/>
+  <text class="note" x="105" y="32">Pilot sees weather</text>
+  <text class="note" x="105" y="50">outside the cockpit</text>
+  <rect class="box box--note" x="220" y="10" width="190" height="52" rx="6"/>
+  <text class="note" x="315" y="32">Pilot wants to keep</text>
+  <text class="note" x="315" y="50">weather awareness</text>
+  <path class="line line--dashed" d="M105 62 V94" marker-end="url(#a)"/>
+  <path class="line line--dashed" d="M260 62 V94" marker-end="url(#a)"/>
+
+  <rect class="box" x="50" y="96" width="260" height="44" rx="6"/>
+  <text x="180" y="123">Use the onboard weather radar</text>
+  <path class="line" d="M180 140 V182" marker-end="url(#a)"/>
+
+  <rect class="loop" x="10" y="164" width="400" height="270" rx="10"/>
+  <rect class="box" x="60" y="184" width="240" height="64" rx="6"/>
+  <text x="180" y="208">Read one slice of weather at</text>
+  <text x="180" y="228">the current tilt, range and gain</text>
+  <path class="line" d="M180 248 V268" marker-end="url(#a)"/>
+
+  <path class="box" d="M180 270 L285 330 L180 390 L75 330 z"/>
+  <text x="180" y="318">Enough to build</text>
+  <text x="180" y="336">a 3D picture of</text>
+  <text x="180" y="354">the weather?</text>
+
+  <path class="line" d="M285 330 H318" marker-end="url(#a)"/>
+  <text class="label" x="301" y="322">No</text>
+  <rect class="box" x="320" y="300" width="84" height="60" rx="6"/>
+  <text x="362" y="320">Adjust</text>
+  <text x="362" y="338">tilt, range</text>
+  <text x="362" y="355">or gain</text>
+  <path class="line" d="M362 300 V216 H302" marker-end="url(#a)"/>
+  <text class="accent" x="400" y="424">Takes experience and skill</text>
+
+  <path class="line" d="M180 390 V456" marker-end="url(#a)"/>
+  <text class="label" x="198" y="414">Yes</text>
+
+  <path class="box" d="M180 458 L285 518 L180 578 L75 518 z"/>
+  <text x="180" y="514">Is avoiding the</text>
+  <text x="180" y="532">weather necessary?</text>
+
+  <path class="line line--dashed" d="M285 518 H318" marker-end="url(#a)"/>
+  <text class="label" x="301" y="510">Yes</text>
+  <rect class="box box--delay" x="320" y="488" width="90" height="60" rx="6"/>
+  <text x="365" y="510">Request a</text>
+  <text x="365" y="528">deviation</text>
+  <text x="365" y="545">from ATC</text>
+</svg>

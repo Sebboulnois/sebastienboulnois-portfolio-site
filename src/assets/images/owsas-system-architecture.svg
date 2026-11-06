@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" width="420" height="440" role="img" aria-labelledby="t">
+  <title id="t">Proposed OWSAS-3 system architecture</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0e1a2b"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; fill: #0e1a2b; text-anchor: middle; }
+    .note { font-size: 13px; fill: #3b4757; }
+    .strong { font-weight: 600; }
+    .box { fill: #ffffff; stroke: #0e1a2b; stroke-width: 1.5; }
+    .box--focus { fill: #fdf6ee; stroke: #92400e; stroke-width: 2; }
+    .sim { fill: #eef1f5; stroke: #c3cad4; stroke-width: 1.5; }
+    .line { fill: none; stroke: #0e1a2b; stroke-width: 1.5; }
+  </style>
+
+  <rect class="box" x="10" y="10" width="124" height="56" rx="6"/>
+  <text class="strong" x="72" y="34">Weather data</text>
+  <text class="note" x="72" y="53">NEXRAD network</text>
+  <rect class="box" x="148" y="10" width="124" height="56" rx="6"/>
+  <text class="strong" x="210" y="34">Map data</text>
+  <text class="note" x="210" y="53">NASA, Mapbox</text>
+  <rect class="box" x="286" y="10" width="124" height="56" rx="6"/>
+  <text class="strong" x="348" y="34">Flight plan</text>
+  <text class="note" x="348" y="53">ProSim737</text>
+
+  <path class="line" d="M210 66 V94" marker-end="url(#a)"/>
+  <rect class="box" x="148" y="96" width="124" height="56" rx="6"/>
+  <text class="strong" x="210" y="120">3D globe</text>
+  <text class="note" x="210" y="139">WhirlyGlobe</text>
+
+  <rect class="sim" x="10" y="178" width="400" height="158" rx="10"/>
+  <text class="note" x="210" y="322">Boeing 737-800 cockpit simulator</text>
+
+  <path class="line" d="M72 66 V202" marker-end="url(#a)"/>
+  <path class="line" d="M210 152 V202" marker-end="url(#a)"/>
+  <path class="line" d="M348 66 V202" marker-end="url(#a)"/>
+
+  <rect class="box box--focus" x="30" y="204" width="236" height="88" rx="6"/>
+  <text class="strong" x="148" y="238">OWSAS</text>
+  <text x="148" y="258">3D weather situation</text>
+  <text x="148" y="276">awareness system</text>
+  <rect class="box" x="286" y="204" width="114" height="88" rx="6"/>
+  <text x="343" y="244">Flight</text>
+  <text x="343" y="262">management</text>
+  <text x="343" y="280">system</text>
+  <path class="line" d="M286 248 H268" marker-end="url(#a)"/>
+
+  <path class="line" d="M148 380 V294" marker-end="url(#a)"/>
+  <rect class="box" x="48" y="380" width="200" height="50" rx="6"/>
+  <text class="strong" x="148" y="402">Aircraft data</text>
+  <text class="note" x="148" y="420">position, attitude, speed</text>
+</svg>

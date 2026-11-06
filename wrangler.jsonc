@@ -3,6 +3,10 @@
   "name": "sebastienboulnois",
   "compatibility_date": "2026-09-01",
   "assets": {
-    "directory": "./_site"
-  }
+    "directory": "./_site",
+    // Serve the custom 404 page for unknown URLs.
+    "not_found_handling": "404-page"
+  },
+  // Required by `wrangler preview`, which Workers Builds runs for pull request branches.
+  "previews": {}
 }

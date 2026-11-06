@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+<article class="page">
+  <header class="page__header">
+    <div class="container page__header-inner">
+      <p class="eyebrow">{{ context }} · {{ years }}</p>
+      <h1 class="page__title">{{ heading }}</h1>
+      <p class="page__lead">{{ lead }}</p>
+      <dl class="case-summary">
+        {%- for item in summary %}
+        <div class="case-summary__item">
+          <dt class="case-summary__term">{{ item.term }}</dt>
+          <dd class="case-summary__detail">{{ item.detail }}</dd>
+        </div>
+        {%- endfor %}
+      </dl>
+    </div>
+  </header>
+  <div class="container page__body">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+  </div>
+  <nav class="container page__nav" aria-label="Case studies">
+    <a class="page__back" href="{{ page.url | relRoot }}#work">All work</a>
+  </nav>
+</article>

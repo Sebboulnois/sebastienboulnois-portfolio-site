@@ -1,11 +1,15 @@
+{#- Marks the nav item for the current page; JS (nav-location.js) marks in-page sections while scrolling. -#}
+{%- set url = page.url or "/" -%}
+{%- macro current(match) -%}{% if url.startsWith(match) %} aria-current="page"{% endif %}{%- endmacro -%}
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__name" href="./">{{ site.name }}, {{ site.credential }}</a>
+    <a class="site-header__name" href="{{ root or './' }}">{{ site.name }}, {{ site.credential }}</a>
     <nav class="site-nav" aria-label="Main">
       <ul class="site-nav__list">
-        <li><a class="site-nav__link" href="#work">Work</a></li>
-        <li><a class="site-nav__link" href="#about">About</a></li>
-        <li><a class="site-nav__link" href="{{ site.resume }}">Resume</a></li>
+        <li><a class="site-nav__link" href="{{ root }}#work"{{ current("/work/") }}>Work</a></li>
+        <li><a class="site-nav__link" href="{{ root }}about/"{{ current("/about/") }}>About</a></li>
+        <li><a class="site-nav__link" href="{{ root }}publications/"{{ current("/publications/") }}>Publications</a></li>
+        <li><a class="site-nav__link" href="{{ root }}{{ site.resume }}" target="_blank" rel="noopener">Resume<span class="visually-hidden"> (PDF, opens in a new tab)</span></a></li>
         <li><a class="site-nav__link" href="#contact">Contact</a></li>
       </ul>
     </nav>

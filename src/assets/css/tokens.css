@@ -41,4 +41,12 @@
   --container-max: 70rem;
   --measure: 40rem;
   --tap-target: 2.75rem;
+  --header-offset: 6.5rem; /* sticky header height plus a small gap; header wraps to two lines on narrow screens */
+}
+
+/* The header fits on one line from 48rem up, so it needs less clearance. */
+@media (min-width: 48rem) {
+  :root {
+    --header-offset: 5rem;
+  }
 }
