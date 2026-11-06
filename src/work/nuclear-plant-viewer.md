@@ -8,7 +8,7 @@ years: "2019"
 lead: Constellation, then Exelon, had built a Digital Plant Viewer, an interactive map of its power plants for employees. Adoption was low across sites. Our team went into three nuclear plants to find out why.
 summary:
   - term: Role
-    detail: User researcher, in a team of three researchers and a designer
+    detail: Researcher, in a team of three researchers and a designer
   - term: Setting
     detail: Three US nuclear power plants, two weeks on site
   - term: Participants
