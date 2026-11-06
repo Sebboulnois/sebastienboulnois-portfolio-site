@@ -3,12 +3,13 @@
     "title": "Pilot weather decision support",
     "context": "PhD research",
     "years": "2015–2018",
-    "summary": "Three and a half years designing and evaluating OWSAS, an onboard 3D weather system, with expert airline pilots in a Boeing 737-800 simulator.",
+    "summary": "Three design cycles of OWSAS, an onboard 3D weather system, evaluated with expert airline pilots in a Boeing 737-800 simulator.",
     "facts": [
       "15 pilot interviews",
       "Pilot-in-the-loop simulation",
-      "NASA-TLX, SART, SUS"
-    ]
+      "NASA-TLX, CC-SART, SUS"
+    ],
+    "url": "work/pilot-weather-decision-support/"
   },
   {
     "title": "Context-sensitive documentation for pilots",
