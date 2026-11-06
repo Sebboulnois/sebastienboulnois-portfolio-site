@@ -1,0 +1,224 @@
+/* Components: self-contained BEM blocks. */
+
+/* Navigation */
+.site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-5);
+}
+
+.site-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+  text-decoration: none;
+}
+
+.site-nav__link:hover {
+  text-decoration: underline;
+}
+
+/* Eyebrow label */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* Hero text */
+.hero__title {
+  font-size: var(--text-2xl);
+  letter-spacing: -0.01em;
+}
+
+.hero__lead {
+  max-width: var(--measure);
+  font-size: var(--text-md);
+  color: var(--color-ink-muted);
+}
+
+/* Status chips */
+.status-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.status-list__item {
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: 3rem;
+  padding-inline: var(--space-5);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button--primary {
+  background: var(--color-ink);
+  color: var(--color-surface);
+}
+
+.button--primary:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-surface);
+}
+
+.button--secondary:hover {
+  border-color: var(--color-accent);
+}
+
+.button__meta {
+  font-weight: 400;
+}
+
+/* Portrait */
+.hero__image {
+  width: 100%;
+  border-radius: var(--radius-md);
+}
+
+/* Key figures */
+.figures__item {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.figures__value {
+  font-family: var(--font-mono);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.figures__label {
+  color: var(--color-ink-muted);
+}
+
+/* Case cards */
+.case-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 28rem), 1fr));
+  gap: var(--space-5);
+}
+
+.case-card {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.case-card__meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+}
+
+.case-card__title {
+  font-size: var(--text-lg);
+}
+
+.case-card__summary {
+  color: var(--color-ink-muted);
+}
+
+/* Tags */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding-top: var(--space-2);
+}
+
+.tag-list__item {
+  padding: 0 var(--space-2);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+}
+
+/* Methods */
+.method-list {
+  display: grid;
+  gap: var(--space-5);
+  border-top: 2px solid var(--color-ink);
+  padding-top: var(--space-5);
+}
+
+.method-list__term {
+  font-weight: 600;
+}
+
+.method-list__detail {
+  color: var(--color-ink-muted);
+}
+
+/* Figure */
+.media-split__image {
+  border-radius: var(--radius-md);
+}
+
+.media-split__caption {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+/* About */
+.prose__note {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+/* Footer content */
+.site-footer__title {
+  font-size: var(--text-lg);
+}
+
+.site-footer__text {
+  margin-top: var(--space-2);
+  color: var(--color-inverse-muted);
+}
+
+.site-footer__links {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.site-footer__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap-target);
+}
+
+.site-footer__link:hover {
+  color: var(--color-inverse-ink);
+  text-decoration-thickness: 2px;
+}

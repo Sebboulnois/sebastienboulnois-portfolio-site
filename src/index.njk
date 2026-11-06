@@ -1,0 +1,108 @@
+---
+layout: layouts/base.njk
+title: Sébastien Boulnois, PhD | Human Factors & Human-Systems Integration Engineer
+description: Human factors and HSI engineer with a PhD in aviation human-centered design, cockpit simulator research with airline pilots, and nuclear plant field studies. US citizen, eligible for Secret/TS.
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow">{{ site.title }}</p>
+      <h1 class="hero__title" id="hero-title">I turn operator performance data into design requirements engineers can build.</h1>
+      <p class="hero__lead">PhD in aviation human-centered design. Cockpit simulator studies with airline pilots, nuclear plant field research, and five years of applied research at scale. Now returning to safety-critical systems.</p>
+      <ul class="status-list" aria-label="Availability">
+        <li class="status-list__item">US citizen, eligible for Secret/TS</li>
+        <li class="status-list__item">Palmdale or San Diego</li>
+        <li class="status-list__item">Available now</li>
+      </ul>
+      <div class="button-group">
+        <a class="button button--primary" href="{{ site.resume }}">Download resume <span class="button__meta">(PDF)</span></a>
+        <a class="button button--secondary" href="mailto:{{ site.email }}">Email me</a>
+      </div>
+    </div>
+    <picture class="hero__portrait">
+      <source type="image/webp" srcset="assets/images/sebastien-boulnois-portrait-480.webp 480w, assets/images/sebastien-boulnois-portrait-700.webp 700w" sizes="(min-width: 60rem) 22rem, 80vw">
+      <img src="assets/images/sebastien-boulnois-portrait-480.jpg" srcset="assets/images/sebastien-boulnois-portrait-480.jpg 480w, assets/images/sebastien-boulnois-portrait-700.jpg 700w" sizes="(min-width: 60rem) 22rem, 80vw" class="hero__image" width="480" height="600" alt="Sébastien presenting research findings at a whiteboard.">
+    </picture>
+  </div>
+</section>
+
+<section class="figures" aria-label="Key figures">
+  <ul class="container figures__list">
+    <li class="figures__item">
+      <span class="figures__value">20+</span>
+      <span class="figures__label">airline pilots in cockpit simulator research</span>
+    </li>
+    <li class="figures__item">
+      <span class="figures__value">3</span>
+      <span class="figures__label">nuclear power plants studied in the field</span>
+    </li>
+    <li class="figures__item">
+      <span class="figures__value">8</span>
+      <span class="figures__label">publications in human factors venues</span>
+    </li>
+  </ul>
+</section>
+
+<section class="section" id="work" aria-labelledby="work-title">
+  <div class="container">
+    <h2 class="section__title" id="work-title">Selected work</h2>
+    <ul class="case-list">
+      {%- for case in work %}
+      <li class="case-card">
+        <p class="case-card__meta">{{ case.context }} · {{ case.years }}</p>
+        <h3 class="case-card__title">{{ case.title }}</h3>
+        <p class="case-card__summary">{{ case.summary }}</p>
+        <ul class="tag-list" aria-label="Highlights">
+          {%- for fact in case.facts %}
+          <li class="tag-list__item">{{ fact }}</li>
+          {%- endfor %}
+        </ul>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="methods-title">
+  <div class="container media-split">
+    <div class="media-split__text">
+      <h2 class="section__title" id="methods-title">How I work</h2>
+      <dl class="method-list">
+        <div class="method-list__item">
+          <dt class="method-list__term">Human performance measurement</dt>
+          <dd class="method-list__detail">Workload, situation awareness and usability, measured with NASA-TLX, SART and SUS.</dd>
+        </div>
+        <div class="method-list__item">
+          <dt class="method-list__term">Human-in-the-loop test</dt>
+          <dd class="method-list__detail">Scenario design and pilot-in-the-loop studies in Boeing 737 and Airbus A320 simulators.</dd>
+        </div>
+        <div class="method-list__item">
+          <dt class="method-list__term">Cognitive task analysis</dt>
+          <dd class="method-list__detail">Expert interviews and field observation to find where decisions break down.</dd>
+        </div>
+        <div class="method-list__item">
+          <dt class="method-list__term">Human-machine teaming</dt>
+          <dd class="method-list__detail">Levels of automation and shared awareness between operators and robotic agents.</dd>
+        </div>
+      </dl>
+    </div>
+    <figure class="media-split__figure">
+      <picture>
+        <source type="image/webp" srcset="assets/images/b737-simulator-study-800.webp 800w, assets/images/b737-simulator-study-1600.webp 1600w" sizes="(min-width: 60rem) 34rem, 92vw">
+        <img src="assets/images/b737-simulator-study-800.jpg" srcset="assets/images/b737-simulator-study-800.jpg 800w, assets/images/b737-simulator-study-1600.jpg 1600w" sizes="(min-width: 60rem) 34rem, 92vw" class="media-split__image" width="800" height="532" loading="lazy" alt="Sébastien running a study session with a participant at the controls of a Boeing 737 cockpit simulator.">
+      </picture>
+      <figcaption class="media-split__caption">Pilot-in-the-loop testing in a Boeing 737 simulator, Florida Tech.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="prose">
+    <h2 class="section__title section__title--compact" id="about-title">About</h2>
+    <p>My PhD and early career were in aviation human factors: cockpit simulators, pilot decision-making and nuclear plant field studies. I then spent five years in applied research for Fortune 500 clients, learning to deliver findings that engineers and executives act on.</p>
+    <p>In 2024 I took a planned break to care for my young children. I’m now returning to the work I trained for: systems where human performance has real consequences.</p>
+    <p class="prose__note">Supported the INCOSE Human-Systems Integration Workshop, 2015–2018. French (native) and English.</p>
+    </div>
+  </div>
+</section>
