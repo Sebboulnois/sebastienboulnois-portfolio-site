@@ -5,7 +5,7 @@ These rules come from Sébastien and apply to every change to this site.
 ## 1. Separation of concerns
 
 - **HTML is for structure only.** Semantic, accessible HTML5. No inline styles (`style="…"`), no presentational tags (`<center>`, `<font>`, `<b>`). Use `<strong>` and `<em>` when emphasis carries meaning.
-- **CSS is for styling only.** All styling lives in external `.css` files under `src/assets/css/`, written with BEM class names (`block__element--modifier`). Style classes, not bare elements, except in `base.css`.
+- **CSS is for styling only.** All styling lives in external `.css` files under `src/assets/css/`, written with BEM class names (`block__element--modifier`). Style classes, not bare elements, except in `base.css`. One exception: Markdown content cannot carry classes, so text inside a `.prose` container (case-study bodies) is styled with contextual selectors such as `.prose h2`, kept in `prose.css`.
 - **JavaScript is for behaviour only.** All logic lives in external `.js` files under `src/assets/js/`. No inline handlers (`onclick="…"`); use event delegation where it fits. Add JavaScript only when a behaviour needs it. The site must work without it.
 
 ## 2. Files and folders
@@ -17,10 +17,11 @@ src/
     layouts/        page shells (base.njk)
     partials/       shared pieces (site-header.njk, site-footer.njk)
   assets/
-    css/            tokens.css, base.css, layout.css, components.css
+    css/            tokens.css, base.css, layout.css, components.css, prose.css
     js/             one file per behaviour, kebab-case (none needed yet)
     images/         kebab-case, each in .webp and .jpg at two widths
     docs/           downloadable PDFs
+  work/             one Markdown file per case study
   index.njk         homepage
 eleventy.config.js  build configuration
 wrangler.jsonc      Cloudflare hosting configuration
@@ -58,3 +59,4 @@ Rule 3 forbids repeated HTML boilerplate, and plain HTML pages would each repeat
 - `base.css`: element defaults, focus style, skip link, reduced motion.
 - `layout.css`: page regions and structural patterns (container, grids, section spacing).
 - `components.css`: the look of each BEM block (type, colour, borders).
+- `prose.css`: typography for rendered Markdown inside `.prose`.

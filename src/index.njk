@@ -29,8 +29,8 @@ description: Human factors and HSI engineer with a PhD in aviation human-centere
 <section class="figures" aria-label="Key figures">
   <ul class="container figures__list">
     <li class="figures__item">
-      <span class="figures__value">20+</span>
-      <span class="figures__label">airline pilots in cockpit simulator research</span>
+      <span class="figures__value">15</span>
+      <span class="figures__label">expert airline pilots in three years of cockpit research</span>
     </li>
     <li class="figures__item">
       <span class="figures__value">3</span>
@@ -50,7 +50,9 @@ description: Human factors and HSI engineer with a PhD in aviation human-centere
       {%- for case in work %}
       <li class="case-card">
         <p class="case-card__meta">{{ case.context }} · {{ case.years }}</p>
-        <h3 class="case-card__title">{{ case.title }}</h3>
+        <h3 class="case-card__title">
+          {%- if case.url %}<a class="case-card__link" href="{{ case.url }}">{{ case.title }}</a>{% else %}{{ case.title }}{% endif -%}
+        </h3>
         <p class="case-card__summary">{{ case.summary }}</p>
         <ul class="tag-list" aria-label="Highlights">
           {%- for fact in case.facts %}
