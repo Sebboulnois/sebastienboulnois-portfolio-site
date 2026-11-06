@@ -37,6 +37,10 @@
 }
 
 /* Hero */
+.hero {
+  border-bottom: 1px solid var(--color-border);
+}
+
 .hero__inner {
   display: grid;
   gap: var(--space-7);
@@ -56,21 +60,8 @@
 @media (min-width: 60rem) {
   .hero__inner {
     grid-template-columns: minmax(0, 1fr) 22rem;
-    padding-block: var(--space-8);
+    padding-block: var(--space-8) var(--space-7);
   }
-}
-
-/* Key figures band */
-.figures {
-  background: var(--color-surface);
-  border-block: 1px solid var(--color-border);
-}
-
-.figures__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: var(--space-5) var(--space-6);
-  padding-block: var(--space-6);
 }
 
 /* Sections */

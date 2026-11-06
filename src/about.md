@@ -2,10 +2,10 @@
 layout: layouts/page.njk
 permalink: about/index.html
 title: About | Sébastien Boulnois, PhD
-description: Sébastien Boulnois is a Human Factors and Human-Systems Integration engineer with a PhD in aviation human-centered design, 10+ years studying how operators decide in high-consequence systems.
+description: Sébastien Boulnois is a Human Factors and Human-Systems Integration engineer with a PhD in aviation human-centered design, 10+ years studying how people decide in high-consequence systems.
 eyebrow: About
 heading: From control engineering to the people in the loop
-lead: I trained as an engineer in automatic control, and found my work in the part of the system engineers often leave out, the operator. For more than ten years I've studied how people make decisions in complex, high-consequence systems, and how to design so they decide well.
+lead: I trained as an engineer in automatic control, and found my work in the part of the system engineers often leave out, the people who use it. For more than ten years I've studied how people make decisions in complex, high-consequence systems, and how to design so they decide well.
 ---
 
 ## How I got here
@@ -42,7 +42,7 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 
 **Pragmatic about method.** Models and playbooks are a starting point. Real programs have constraints, and the plan has to fit the context and the goal at hand.
 
-**Grounded in evidence.** I connect what operators do, what the data shows and what the program needs, and I report findings precisely and plainly enough for everyone in the room.
+**Grounded in evidence.** I connect what people do, what the data shows and what the program needs, and I report findings precisely and plainly enough for everyone in the room.
 
 **Collaborative.** I listen, invite disagreement, and approach hard discussions with curiosity rather than defensiveness. Honest conversations make better systems.
 
