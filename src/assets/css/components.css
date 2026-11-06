@@ -18,6 +18,19 @@
   text-decoration: underline;
 }
 
+/* Current page, or the in-page section in view: orange underline marker. */
+.site-nav__link[aria-current] {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* When a section of this page is in view (e.g. Contact), it takes the marker from the page link. */
+.site-nav__list:has([aria-current="location"]) .site-nav__link[aria-current="page"] {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Phones: keep all five links on one row so the sticky header stays two lines tall. */
 @media (max-width: 30rem) {
   .site-nav__list {

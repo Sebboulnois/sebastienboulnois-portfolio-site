@@ -18,7 +18,7 @@ src/
     partials/       shared pieces (site-header.njk, site-footer.njk)
   assets/
     css/            tokens.css, base.css, layout.css, components.css, page.css, prose.css
-    js/             one file per behaviour, kebab-case (none needed yet)
+    js/             one file per behaviour, kebab-case (nav-location.js)
     images/         kebab-case; photos in .webp and .jpg at two widths, diagrams in .svg
     docs/           downloadable PDFs
   work/             one Markdown file per case study
