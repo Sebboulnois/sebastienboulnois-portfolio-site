@@ -1,0 +1,8 @@
+// Cloudflare Workers configuration: serves the Eleventy build output as static files.
+{
+  "name": "sebastienboulnois",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./_site"
+  }
+}
