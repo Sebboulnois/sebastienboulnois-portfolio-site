@@ -36,6 +36,8 @@ The answer was Paven, an app that guides employees toward their financial goals 
 
 ### Three phases of testing
 
+Working with a design researcher, I ran 8 heuristic evaluations and 20+ rounds of user testing, each with 5 or 6 participants, for more than 100 individual sessions in all.
+
 1. **Concept.** In my first week, I helped introduce the Paven proof of concept to Meta's early adopters in Menlo Park. The prototype had fixed flows, so I ran scripted, guided walkthroughs built around three research-informed personas, with planned pauses and prompts for feedback. More than a dozen employees took part, and I presented the results to Meta's benefits leadership.
 2. **First release.** Over three months I tested 15+ features and their task flows with Meta employees, one feature a week. Each week ran the full cycle: align on the feature, plan, test, analyse and hand insights to design and development.
 3. **After launch.** Analytics showed retention problems: push notifications and the home page drove most engagement, and other features saw little use. Across seven initiatives, I combined secondary research, heuristic evaluations and user testing to find out why.
