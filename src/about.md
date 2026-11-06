@@ -52,6 +52,7 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 ## Also
 
 - U.S. citizen (dual U.S. and French), eligible for Secret and Top Secret clearance
+- Outstanding Student of the Year, Florida Institute of Technology, 2018
 - Supported the INCOSE Human-Systems Integration Workshop, 2015 to 2018
 - French (native) and English (fluent)
 - Based in Palmdale, California, and open to remote roles
