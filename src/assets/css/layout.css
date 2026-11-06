@@ -37,7 +37,9 @@
 }
 
 /* Hero */
+/* White hero, then sections alternate grey (Work), white (How I work), grey (About). */
 .hero {
+  background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
 }
 
