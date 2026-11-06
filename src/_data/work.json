@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Pilot weather decision support",
+    "context": "PhD research",
+    "years": "2015–2018",
+    "summary": "Three and a half years designing and evaluating OWSAS, an onboard 3D weather system, with expert airline pilots in a Boeing 737-800 simulator.",
+    "facts": ["15 pilot interviews", "Pilot-in-the-loop simulation", "NASA-TLX, SART, SUS"]
+  },
+  {
+    "title": "Context-sensitive documentation for pilots",
+    "context": "Florida Tech research internship",
+    "years": "2014",
+    "summary": "An iPad procedure system driven by live aircraft data, evaluated against paper documentation in an Airbus A320 simulator during flaps-malfunction and fuel-leak scenarios.",
+    "facts": ["A320 pilot-in-the-loop simulation", "Abnormal-procedure scenarios", "Presented at IEA 2015"]
+  },
+  {
+    "title": "Nuclear plant information system adoption",
+    "context": "Daito Design, for Constellation",
+    "years": "2019",
+    "summary": "Two weeks of field research at three nuclear plants to find why operators weren't adopting the Digital Plant Viewer, with recommendations on design, access and training.",
+    "facts": ["3 nuclear plants", "Field observation and intercepts", "On-site user testing"]
+  },
+  {
+    "title": "Firefighter-robot cooperation",
+    "context": "LAMIH research lab",
+    "years": "2014–2015",
+    "summary": "Observing firefighting teams and building a research-informed proof of concept for how firefighters and robots cooperate in hazardous environments.",
+    "facts": ["Human-machine teaming", "Field observation", "Concept prototyping"]
+  },
+  {
+    "title": "Decision research at scale",
+    "context": "Round Feather, for Meta and a healthcare platform",
+    "years": "2019–2024",
+    "summary": "Evaluative research for Meta's Paven financial wellbeing app and a platform supporting people through an unexpected pregnancy.",
+    "facts": ["14,176 Paven users onboarded", "35,000+ platform users", "Heuristic evaluation and usability testing"]
+  }
+]

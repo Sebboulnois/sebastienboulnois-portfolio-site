@@ -1,0 +1,14 @@
+{
+  "name": "sebastienboulnois-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio site for Sébastien Boulnois, Human Factors & HSI Engineer.",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8"
+  }
+}
