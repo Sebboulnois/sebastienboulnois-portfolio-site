@@ -24,13 +24,13 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 
 - **2026 to now:** Chief Operating Officer (part-time), Bee Humans, an early-stage startup supporting commercial beekeepers' health and performance
 - **2024 to 2026:** Career break for family caregiving
-- **2024:** Senior Researcher, UST Global
-- **2019 to 2024:** Researcher, promoted to Senior Researcher in 2022, Round Feather
+- **2024:** Senior UX Researcher, UST
+- **2019 to 2024:** User Experience Researcher, promoted to Senior User Experience Researcher in 2022, Round Feather
 - **2019:** Researcher, Daito Design
 - **2018 to 2019:** Research Assistant, ATLAS Lab, Florida Institute of Technology
-- **2015 to 2018:** PhD researcher and flight simulator manager (B737 and A320 cockpit simulators), Human-Centered Design Institute, Florida Institute of Technology
+- **2015 to 2018:** Graduate Researcher and Flight Simulator Manager (B737 and A320 cockpit simulators), Human-Centered Design Institute, Florida Institute of Technology
 - **2014 to 2015:** Research engineer, LAMIH, Université Polytechnique Hauts-de-France
-- **2014:** Human Factors Researcher, Florida Institute of Technology
+- **2014:** Research Assistant, Human-Centered Design, Florida Institute of Technology
 - **2012:** Human Factors Researcher, Eberspaecher
 
 ## Education

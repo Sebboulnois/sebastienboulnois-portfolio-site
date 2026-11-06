@@ -8,7 +8,7 @@ years: 2019–2024
 lead: At Round Feather I led evaluative research on two products built for people making difficult decisions under stress and uncertainty, one about money and one about an unexpected pregnancy. In both, the job was the same as in a cockpit, to understand how people decide and give them the right support at the right time.
 summary:
   - term: Role
-    detail: Research lead on both projects. Researcher, promoted to Senior Researcher in 2022
+    detail: Research lead on both projects. User Experience Researcher, promoted to Senior User Experience Researcher in 2022
   - term: Clients
     detail: Meta, for its employees; a New York non-profit supporting people facing unexpected pregnancies
   - term: Participants
