@@ -4,6 +4,11 @@
   font-size: var(--text-xl);
 }
 
+.prose h3 {
+  margin-top: var(--space-5);
+  font-size: var(--text-md);
+}
+
 .prose ul,
 .prose ol {
   display: grid;
