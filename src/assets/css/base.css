@@ -65,7 +65,7 @@ a:hover {
   position: absolute;
   top: var(--space-2);
   left: var(--space-2);
-  z-index: 10;
+  z-index: 20; /* above the sticky header (10) */
   padding: var(--space-2) var(--space-4);
   background: var(--color-surface);
   transform: translateY(-200%);

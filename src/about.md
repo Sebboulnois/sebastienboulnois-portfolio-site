@@ -27,7 +27,8 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 - **2024:** Senior Researcher, UST Global
 - **2019 to 2024:** Researcher, promoted to Senior Researcher in 2022, Round Feather
 - **2019:** Researcher, Daito Design
-- **2015 to 2018:** PhD researcher, Human-Centered Design Institute, Florida Institute of Technology
+- **2018 to 2019:** Research Assistant, ATLAS Lab, Florida Institute of Technology
+- **2015 to 2018:** PhD researcher and flight simulator manager (B737 and A320 cockpit simulators), Human-Centered Design Institute, Florida Institute of Technology
 - **2014 to 2015:** Research engineer, LAMIH, Université Polytechnique Hauts-de-France
 - **2014:** Human Factors Researcher, Florida Institute of Technology
 - **2012:** Human Factors Researcher, Eberspaecher
@@ -46,11 +47,11 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 
 **Collaborative.** I listen, invite disagreement, and approach hard discussions with curiosity rather than defensiveness. Honest conversations make better systems.
 
-**Leading from the back.** I give credit where it's due, celebrate team wins, and create chances for others to do their best work.
+**Leading from the back.** I give credit where it's due, celebrate team wins, and create chances for others to do their best work. I mentored four graduate interns during my PhD and three undergraduate students at LAMIH.
 
 ## Also
 
 - U.S. citizen (dual U.S. and French), eligible for Secret and Top Secret clearance
 - Supported the INCOSE Human-Systems Integration Workshop, 2015 to 2018
 - French (native) and English (fluent)
-- Based in Palmdale, California
+- Based in Palmdale, California, and open to remote roles

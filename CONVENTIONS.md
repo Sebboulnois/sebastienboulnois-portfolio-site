@@ -30,7 +30,7 @@ wrangler.jsonc      Cloudflare hosting configuration
 ```
 
 - Lowercase kebab-case for every file and folder.
-- Relative paths for every image, script and stylesheet.
+- Relative paths for every image, script and stylesheet. One exception: `404.html` is served at any unknown URL, so it sets `absoluteRoot: true` and links from `/`.
 
 ## 3. Codebase health
 
