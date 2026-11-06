@@ -23,6 +23,7 @@ src/
     docs/           downloadable PDFs
   index.njk         homepage
 eleventy.config.js  build configuration
+wrangler.jsonc      Cloudflare hosting configuration
 ```
 
 - Lowercase kebab-case for every file and folder.
