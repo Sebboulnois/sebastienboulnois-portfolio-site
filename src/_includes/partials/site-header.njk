@@ -9,7 +9,7 @@
         <li><a class="site-nav__link" href="{{ root }}#work"{{ current("/work/") }}>Work</a></li>
         <li><a class="site-nav__link" href="{{ root }}about/"{{ current("/about/") }}>About</a></li>
         <li><a class="site-nav__link" href="{{ root }}publications/"{{ current("/publications/") }}>Publications</a></li>
-        <li><a class="site-nav__link" href="{{ root }}{{ site.resume }}" target="_blank" rel="noopener">Resume<span class="visually-hidden"> (PDF, opens in a new tab)</span></a></li>
+        <li><a class="site-nav__link" href="{{ root }}{{ site.resume }}" target="_blank" rel="noopener">Resume<span class="visually-hidden"> (PDF, opens in a new tab)</span>{% include "partials/new-tab-icon.njk" %}</a></li>
         <li><a class="site-nav__link" href="#contact">Contact</a></li>
       </ul>
     </nav>
