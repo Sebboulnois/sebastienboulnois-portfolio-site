@@ -5,9 +5,10 @@
     "years": "2015–2018",
     "summary": "Three design cycles of OWSAS, an onboard 3D weather system, evaluated with expert airline pilots in a Boeing 737-800 simulator.",
     "facts": [
-      "15 pilot interviews",
-      "Pilot-in-the-loop simulation",
-      "NASA-TLX, CC-SART, SUS"
+      "Aviation",
+      "Lead researcher and designer",
+      "15 airline pilots, B737 simulator",
+      "Workload, SA and usability measures"
     ],
     "url": "work/pilot-weather-decision-support/"
   },
@@ -17,8 +18,9 @@
     "years": "2014",
     "summary": "An iPad procedure system driven by live aircraft data, evaluated against paper documentation in an Airbus A320 simulator during flaps-malfunction and fuel-leak scenarios.",
     "facts": [
-      "A320 pilot-in-the-loop simulation",
-      "Abnormal-procedure scenarios",
+      "Aviation",
+      "Research intern",
+      "A320 simulator, abnormal procedures",
       "Presented at IEA 2015"
     ],
     "url": "work/ocsis/"
@@ -29,9 +31,10 @@
     "years": "2019",
     "summary": "Two weeks of field research at three nuclear plants to find why operators weren't adopting the Digital Plant Viewer, with recommendations on design, access and training.",
     "facts": [
-      "3 nuclear plants",
-      "Field observation and intercepts",
-      "On-site user testing"
+      "Nuclear energy",
+      "Field researcher",
+      "3 plants, 2 weeks on site",
+      "5 recommendations"
     ],
     "url": "work/nuclear-plant-viewer/"
   },
@@ -41,21 +44,23 @@
     "years": "2014–2015",
     "summary": "Observing firefighting teams and building a research-informed proof of concept for how firefighters and robots cooperate in hazardous environments.",
     "facts": [
-      "Human-machine teaming",
-      "Field observation",
-      "Concept prototyping"
+      "Emergency response",
+      "Research engineer",
+      "Live crisis exercise",
+      "Robot team proof of concept"
     ],
     "url": "work/firefighter-robot-cooperation/"
   },
   {
-    "title": "Decision research at scale",
-    "context": "Round Feather, for Meta and a healthcare platform",
+    "title": "Supporting high-stakes personal decisions",
+    "context": "Round Feather, for Meta and a non-profit",
     "years": "2019–2024",
     "summary": "Evaluative research for Meta's Paven financial wellbeing app and a platform supporting people through an unexpected pregnancy.",
     "facts": [
-      "14,176 Paven users onboarded",
-      "35,000+ platform users",
-      "Heuristic evaluation and usability testing"
+      "Finance and healthcare",
+      "Research lead",
+      "100+ test sessions",
+      "49,000+ users across both"
     ],
     "url": "work/decision-research-at-scale/"
   }

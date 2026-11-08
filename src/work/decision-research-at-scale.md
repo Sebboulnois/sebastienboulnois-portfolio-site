@@ -1,6 +1,6 @@
 ---
 order: 5
-title: Decision research at scale | Sébastien Boulnois, PhD
+title: Supporting high-stakes personal decisions | Sébastien Boulnois, PhD
 description: Evaluative research for two products that support people making high-stakes personal decisions under uncertainty, Meta's Paven financial wellbeing app and a platform for people facing an unexpected pregnancy.
 heading: Supporting people through high-stakes personal decisions
 context: Round Feather, San Diego

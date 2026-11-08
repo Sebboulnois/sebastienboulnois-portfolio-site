@@ -10,9 +10,9 @@ lead: I trained as an engineer in automatic control, and found my work in the pa
 
 ## How I got here
 
-In France I studied engineering science and automatic control. The courses I did best in were the ones about people: industrial engineering and ergonomics. A first internship at Eberspaecher, assessing operators' workstations on an industrial line, confirmed it.
+My path has been anything but linear. In France I studied engineering science and automatic control. The courses I did best in were the ones about people: industrial engineering and ergonomics. A first internship at Eberspaecher, assessing operators' workstations on an industrial line, confirmed it.
 
-For my master's internship, a professor offered me research at the Human-Centered Design Institute at Florida Tech instead of a control job in the automotive industry. I spent six months designing and testing an onboard procedure system with airline pilots in an A320 simulator. I came back to France to graduate, but I knew what I wanted to do.
+For my master's internship, a professor offered me research at the Human-Centered Design Institute at Florida Tech instead of a control job in the automotive industry. I said yes without hesitating, and it was one of the best decisions of my life. I spent six months designing and testing an onboard procedure system with airline pilots in an A320 simulator. I came back to France to graduate, but I knew what I wanted to do.
 
 I took a research engineer role at LAMIH studying how firefighters and robots could cooperate in hostile environments. Then Florida Tech offered me a PhD, and I spent the next three years with expert airline pilots and a B737-800 simulator, working on how pilots understand and avoid convective weather.
 
@@ -41,13 +41,13 @@ In 2024 I stepped back to care for my young children. I'm now returning to the w
 
 ## How I work
 
-**Pragmatic about method.** Models and playbooks are a starting point. Real programs have constraints, and the plan has to fit the context and the goal at hand.
+**Passion and pragmatism.** I give my all to every project, and I stay practical about how. Models and playbooks are a starting point, but real programs have constraints, so the plan has to fit the context and the goal at hand.
 
-**Grounded in evidence.** I connect what people do, what the data shows and what the program needs, and I report findings precisely and plainly enough for everyone in the room.
+**Evidence and detail.** I connect the dots between what people do, what the data shows and what the program needs. Being precise in my findings, and explaining them clearly to everyone in the room, matters a lot to me.
 
-**Collaborative.** I listen, invite disagreement, and approach hard discussions with curiosity rather than defensiveness. Honest conversations make better systems.
+**Collaboration with empathy.** I try to create a warm environment where everyone feels comfortable contributing. I listen, invite different viewpoints, and approach hard discussions with curiosity rather than defensiveness. Honest conversations make better systems.
 
-**Leading from the back.** I give credit where it's due, celebrate team wins, and create chances for others to do their best work. I mentored four graduate interns during my PhD and three undergraduate students at LAMIH.
+**Leading from the back.** I lead with respect and recognition. I celebrate team wins, big or small, give credit where it's due, and create chances for others to shine. I mentored four graduate interns during my PhD and three undergraduate students at LAMIH.
 
 ## Also
 
