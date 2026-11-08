@@ -238,3 +238,11 @@
 .case-card__link:hover {
   text-decoration-thickness: 2px;
 }
+
+/* New-tab cue: small arrow-out-of-box icon after links that open in a new tab. */
+.new-tab-icon {
+  flex-shrink: 0;
+  width: 0.75em;
+  height: 0.75em;
+  margin-inline-start: 0.3em;
+}
