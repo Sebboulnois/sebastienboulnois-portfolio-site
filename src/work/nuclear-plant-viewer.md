@@ -21,7 +21,7 @@ summary:
 
 ## The problem
 
-The Digital Plant Viewer (DPV) is a web application that gives employees a central, interactive map of a power plant. Constellation saw low adoption across its plants and needed to know whether the cause was the software, the way it was deployed, or both.
+The Digital Plant Viewer (DPV) is a web application that gives employees a central, interactive map of a power plant. Constellation saw low adoption across its plants and needed to know whether the cause was the software, the way it was deployed, or both. My job was to uncover the root causes that kept DPV from being used in the field.
 
 ## How we studied it
 

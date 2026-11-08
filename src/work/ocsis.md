@@ -25,7 +25,7 @@ summary:
 
 Commercial pilots rely on paper manuals and several electronic systems to run flight procedures. In a system failure, searching static documents adds mental workload and slows decisions, at exactly the moment the crew has the least spare capacity.
 
-Working under a pilot instructor and her PhD mentor, my goal was to understand the challenges pilots face with onboard procedures, and to design a system that delivers the right operational information, at the right time, in the right format, without adding cognitive load.
+This was my first project with pilots, and the one that convinced me to make this my career. Working under a pilot instructor and her PhD mentor, my goal was to understand the challenges pilots face with onboard procedures, and to design a system that delivers the right operational information, at the right time, in the right format, without adding cognitive load.
 
 ## What pilots needed
 

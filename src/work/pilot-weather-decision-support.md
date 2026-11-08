@@ -23,11 +23,11 @@ summary:
 
 ## The problem
 
-Convective weather such as thunderstorms brings wind shear, turbulence and hail. Pilots told us its vertical structure is poorly understood, partly because training covers it lightly, and onboard weather radar shows mostly a 2D slice. Current ground-air services limit how well crews can build and update a picture of the weather around them.
+Convective weather such as thunderstorms brings wind shear, turbulence and hail. Pilots told me its vertical structure is poorly understood, partly because training covers it lightly, and onboard weather radar shows mostly a 2D slice. Current ground-air services limit how well crews can build and update a picture of the weather around them.
 
 ## Understanding how pilots manage weather
 
-I started by taking meteorology classes, then ran a grounded theory study: in-depth, semi-structured interviews with 15 expert airline pilots, each with at least 1,000 hours as an airline transport pilot. The interviews traced how pilots build weather awareness from the pre-flight briefing to in-flight decisions, and fed a knowledge base used throughout the project.
+I was new to aviation weather, so I had to be pragmatic and open-minded. I started by taking meteorology classes, then ran a grounded theory study: in-depth, semi-structured interviews with 15 expert airline pilots, each with at least 1,000 hours as an airline transport pilot. The interviews traced how pilots build weather awareness from the pre-flight briefing to in-flight decisions, and fed a knowledge base used throughout the project.
 
 {% figure "pilot-interview-cockpit-lab", "Sébastien interviewing an expert airline pilot in the cockpit design lab, with a simulator screen in the background.", "Knowledge elicitation with an expert pilot in the cockpit design lab.", 800, 442 %}
 
